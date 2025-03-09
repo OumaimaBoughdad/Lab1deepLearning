@@ -1,38 +1,37 @@
 ### README - Deep Learning Lab 1
 
-#### **Lab Overview**
-This lab focuses on implementing deep learning techniques using the PyTorch library for both regression and multi-class classification tasks. The goal is to familiarize students with building Deep Neural Networks (DNNs) and optimizing them for real-world datasets.
+#### **Overview**
+In this lab, I have implemented deep learning techniques using the PyTorch library to solve both regression and multi-class classification problems. The objective was to gain hands-on experience in building Deep Neural Networks (DNNs) and optimizing their performance using various techniques.
 
 #### **Tasks & Steps**
 ##### **Part 1: Regression Task**
-- Perform **Exploratory Data Analysis (EDA)** to understand and visualize the dataset.
-- Build a **Deep Neural Network (DNN) using PyTorch** for regression.
-- Use **GridSearchCV** to optimize hyperparameters (learning rate, optimizer, model architecture, epochs).
-- Visualize **Loss vs. Epochs** and **Accuracy vs. Epochs** for both training and test sets.
-- Apply **regularization techniques** and compare results.
+- I performed **Exploratory Data Analysis (EDA)** to understand and visualize the dataset.
+- I built a **Deep Neural Network (DNN) using PyTorch** to handle the regression task.
+- I optimized the model using **GridSearchCV**, tuning parameters such as learning rate, optimizer type, number of epochs, and model architecture.
+- I visualized **Loss vs. Epochs** and **Accuracy vs. Epochs** for both training and test data to interpret the model’s performance.
+- I applied **regularization techniques** to improve the model’s generalization and compared the results with the initial model.
 
-##### **Part 2: Multi-Class Classification**
-- **Preprocess and clean** the dataset (handle missing values, normalize features).
-- Perform **EDA** to analyze dataset characteristics.
-- Apply **data augmentation (SMOTE)** to balance the dataset.
-- Implement a **multi-class classification DNN using PyTorch**.
-- Optimize hyperparameters using **GridSearchCV**.
-- Plot **Loss vs. Epochs** and **Accuracy vs. Epochs**.
-- Evaluate performance with **accuracy, F1-score, and sensitivity**.
-- Apply **regularization techniques** and compare models.
+##### **Part 2: Multi-Class Classification Task**
+- I preprocessed and cleaned the dataset by handling missing values and normalizing numerical features.
+- I conducted **EDA** to analyze the dataset’s characteristics and distributions.
+- I applied **data augmentation using SMOTE** to balance the dataset and address class imbalances.
+- I designed and implemented a **multi-class classification DNN using PyTorch**, ensuring a well-structured architecture.
+- I optimized hyperparameters using **GridSearchCV** to improve model performance.
+- I plotted **Loss vs. Epochs** and **Accuracy vs. Epochs** graphs to evaluate training progress.
+- I calculated evaluation metrics such as **accuracy, F1-score, and sensitivity** to measure classification performance.
+- I experimented with **regularization techniques** to compare and improve the model’s effectiveness.
 
 #### **Tools Used**
-- **Google Colab/Kaggle** for implementation
-- **PyTorch** for building deep learning models
-- **Scikit-learn** for preprocessing and hyperparameter tuning
-- **Seaborn/Matplotlib** for data visualization
-- **SMOTE (imbalanced-learn)** for handling class imbalance
-- **GitHub/GitLab** for code versioning
+- **Google Colab/Kaggle** for running the experiments
+- **PyTorch** for building and training deep learning models
+- **Scikit-learn** for data preprocessing and hyperparameter tuning
+- **Seaborn/Matplotlib** for visualizing data and model performance
+- **SMOTE (imbalanced-learn)** for handling dataset imbalance
 
-#### **Deliverables**
-- Python scripts implementing both tasks.
-- Graphs and analysis reports.
-- A summary of key learnings from the lab.
-- Code pushed to **GitHub/GitLab** with documentation in the README.
+=
+
+---
+
+
 
 
